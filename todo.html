@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35c4604539.js" crossorigin="anonymous"></script>
+    <title>Tech To Do List</title>
+</head>
+<body>
+    <div class="header">
+        <h2>My Tech To Do List</h2>
+        <p id="todayDate"></p>
+
+    </div>
+<div class="container">
+
+<form id="form">
+    <div id="newtask">
+        <input type="text" class="addtask" placeholder="e.g tech plans today?">
+        <button type="submit" id="push"> Add Task</button>
+    </div>
+</form>
+
+    <div id="tasks"></div>
+</div>
+
+<!-- <div class="task">
+    <span id="taskname">
+        ${document.querySelector('#newtask input').value}
+    </span>
+    <button type="button" class="edit-btn">
+    <i class="fas fa-edit"></i>
+</button>
+<button type="button" class="delete-btn">
+    <i class="fas fa-trash"></i>
+</button>
+
+</div> -->
+
+
+    <script src="app.js"></script>
+</body>
+</html>
